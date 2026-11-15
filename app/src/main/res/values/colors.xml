@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vault_blue">#1E3A8A</color>
+    <color name="window_background">#10162A</color>
+    <color name="padlock_white">#FFFFFF</color>
+</resources>
