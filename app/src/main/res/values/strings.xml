@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecureVault</string>
+    <string name="unlock_title">Unlock SecureVault</string>
+    <string name="unlock_subtitle">Confirm your identity to open the vault</string>
+    <string name="unlock_hint">Use a strong biometric or your phone’s screen lock.</string>
+    <string name="screen_lock_required">Set a screen lock PIN, pattern, or password on your phone to use SecureVault.</string>
+    <string name="unlock_action">Unlock</string>
+    <string name="screen_lock_settings">Open screen lock settings</string>
+</resources>
