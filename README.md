@@ -40,7 +40,7 @@ Open **Actions → Build SecureVault signed release → Run workflow** and choos
 
 ## Install on the phone
 
-> Built for personal use and Android development practice. Install it if you’d like to try it.
+> Built for personal use and Android development practice. Install it at your own discretion.
 
 1. Transfer the extracted APK to your phone and open it in **My Files**. Follow Android’s installation prompts and keep Google Play Protect enabled.
 2. Open **SecureVault**. Set a phone screen lock in Settings if prompted. Tap **Unlock** and authenticate to open the vault.
