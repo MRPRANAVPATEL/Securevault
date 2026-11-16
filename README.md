@@ -1,5 +1,7 @@
 # SecureVault
 
+**Thoughtfully built by Pranav Patel to solve everyday problems.**
+
 SecureVault is a native, offline Android vault for notes, editable scripts, audio recordings, and files. It runs on Android 11 (API 30) or later and uses the phone’s screen lock to authenticate. Android decides which enrolled biometrics meet the strong authentication requirement and also offers your PIN, pattern, or password.
 
 ## Upload the source and build a test APK
@@ -38,6 +40,8 @@ Open **Actions → Build SecureVault signed release → Run workflow** and choos
 
 ## Install on the phone
 
+> Built for personal use and Android development practice. Install it at your own discretion.
+
 1. Transfer the extracted APK to your phone and open it in **My Files**. Follow Android’s installation prompts and keep Google Play Protect enabled.
 2. Open **SecureVault**. Set a phone screen lock in Settings if prompted. Tap **Unlock** and authenticate to open the vault.
 
@@ -59,3 +63,7 @@ The build produces `app/build/outputs/apk/debug/app-debug.apk`. Run Gradle 8.7 d
 - Tap an item to edit text, play audio, or view file details. Use its menu to delete the item or export a **decrypted copy** through Android’s file picker. The exported copy is stored outside the vault.
 - SecureVault locks when the screen turns off or after 60 seconds in the background. The lock screen covers the app and keeps the current draft in memory. Save a draft to retain it across an app process restart. Playback and unsaved recordings stop when the app leaves the foreground.
 - Item data and the index are encrypted with AES-256-GCM and a device-local Android Keystore key. Android backup and device transfer of app files are disabled. Uninstalling SecureVault or clearing its app data removes the vault. Export any files you want to keep before either action.
+
+---
+
+*Thoughtfully built by Pranav Patel to keep everyday notes and files private on your phone.*
